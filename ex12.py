@@ -10,9 +10,9 @@ pontos = 0
 for pergunta in perguntas:
     print(pergunta)
     resposta = input('Responda sim ou não:\n').lower().replace('ã' , 'a')
-    if resposta == 'Sim':
+    if resposta == 'sim':
         pontos = pontos+1
-    elif resposta == 'Não':
+    elif resposta == 'não':
         pontos == pontos+0
     
 if pontos == 2:
